@@ -1,0 +1,19 @@
+{
+    "name": "liaoshimin/composertest",
+    "description": "composer包",
+    "require": {
+        "php": ">=5.3"
+    },
+    "authors": [
+        {
+            "name": "liaoshimin",
+            "email": "997661236@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Test\\": "src/"
+        }
+    }
+}
